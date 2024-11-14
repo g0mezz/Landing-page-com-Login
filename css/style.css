@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --c01: #fff;
+    --c02: #000;
+    --c03: #A05000;
+}
+
+* {
+    font-family: Montserrat;
+}
+
+li {
+    list-style: none;
+}
+
+button a {
+    color: white;
+}
+
+button a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+@media only screen and (width: 400px) {
+    header {
+        display: flex;
+        flex-direction: column;
+    }
+}

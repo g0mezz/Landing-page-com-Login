@@ -1,0 +1,44 @@
+:root {
+    --c01: #fff;
+    --c02: #000;
+    --c03: #b2866c;
+}
+
+main {
+    margin-top: 5%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+
+.info {
+    width: 100%;
+}
+
+@media only screen and (width: 400px) {
+    main {
+        align-items: flex-start;
+        width: 300px;
+    }
+
+    form {
+        align-items: stretch;
+    }
+}
